@@ -1,11 +1,11 @@
 # BinaryGCD.s May 8, 2025. Written by Gen Blaine
-# binary GCD algorithm takes two positive 32-bit integers, a and b
+# binary GCD algorithm takes two non-negative 32-bit integers, a and b
 # the algorithm returns the greatest common divisor of the two integers
 
 .globl  binaryGCD # make binaryGCD global for the C file.
 
 # this is a helper function for taking two to the power of some 
-# input: positive 32-bit integer, power
+# input: non-negative 32-bit integer, power
 # output: 2 ^ power (32-bit integer)
 two_to_the_power:
     # the power is stored in register %edi (first argument and 32 bits)

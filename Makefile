@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -g
 OBJ = main.o BinaryGCD.o
-EXEC = program
+EXEC = binaryGCD
 
 all: $(EXEC)
 
