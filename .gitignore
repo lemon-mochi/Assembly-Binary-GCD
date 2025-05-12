@@ -6,3 +6,4 @@ program
 test
 test.c
 BinaryGCD.o
+.gitignore
